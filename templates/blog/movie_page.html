@@ -8,23 +8,25 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	background-image: linear-gradient(to right , #cb2d3e , #ef473a);
+	background-image: url('https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg');
 }
 
 .main_card {
 	color: #fff;
 	width: 1100px;
 	height: 500px;
-	margin: 50px auto;
-	display: -webkit-box;
-	display: -ms-flexbox;
+	margin: 100px auto;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	border-radius: 5px;
 	display: flex;
-	background-image: linear-gradient(to right , #0F2027 , #203A43, #2C5364);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 19%, rgba(90,9,121,1) 69%, rgba(0,103,255,1) 100%);
 }
 
 
 .card_left {
 	width: 90%;
+	border-radius: 10px;
 }
 
 .card_datails {
@@ -38,10 +40,10 @@ body {
 .card_right img {
 	height: 500px;
 	width: 340px;
-	border-radius: 2px;
+	border-radius: 10px;
 }
 .card_right {
-	border-radius: 2px;
+	border-radius: 10px;
 }
 
 .card_cat {
@@ -195,8 +197,8 @@ button:hover {
 					<a class=link href="{{ imdb_link }}">
 					IMdb Score {{ vote_average }}</a>
 				<button >
-						<a class=link href="{{ homepage }}">
-						Offical Website</a>
+						<a class=link href="https://www.youtube.com/results?search_query={{ title }}+trailer">
+						MOViE TRAILER</a>
 					
 			</div>
 
@@ -214,7 +216,7 @@ button:hover {
 				</div>
 			</div>
 		</div>
-	</div>
+		
 
 
 
