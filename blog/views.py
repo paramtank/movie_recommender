@@ -407,7 +407,7 @@ def movie_page(request):
                                                           "vote_average":new_data['vote_average'].values[0],
                                                           "director":new_data['director'].values[0] ,
                                                           "homepage":new_data['homepage'].values[0] , 'link':link,
-                                                          "imdb_link":new_data['Imdb Link'].values[0],
+                                                          "imdb_link":new_data['imdbId'].values[0],
                                                           "budget":new_data['budget'].values[0]})
 
 
